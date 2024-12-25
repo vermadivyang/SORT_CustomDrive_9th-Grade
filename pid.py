@@ -13,4 +13,3 @@ class PID:
         derivative = error - self.prev_error
         self.prev_error = error
         return self.Kp * error + self.Ki * self.integral + self.Kd * derivative
-
