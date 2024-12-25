@@ -168,10 +168,4 @@ def end():
     print("End of movements.")
     motor_control.cleanup()
 
-# Example usage
-startPos(0, 0, 0)
-move_to_pivot_forward(1, 1)
-move_to_tank_forward(2, 2)
-move_to_pivot_backward(1, 0)
-move_to_tank_backward(0, 0)
-end()
+
