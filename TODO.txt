@@ -1,0 +1,34 @@
+TODO:
+
+1. Install necessary Python modules:
+   - RPi.GPIO
+   - Adafruit_CharLCD (for LCD display, if needed)
+
+2. Use the following pip install commands to install the required modules:
+pip install RPi.GPIO 
+pip install adafruit-charlcd
+
+
+3. Connect the hardware components:
+- Raspberry Pi
+- Motors
+- Motor drivers
+- Encoders
+- LCD display (optional)
+
+4. Wire the components according to the GPIO pin setup specified in `motor_control.py`.
+
+5. Run `Main.py` to execute the example usage and verify the robot's movements.
+
+6. Adjust the PID parameters in `motor_control.py` as needed for your specific motor and encoder setup.
+
+7. Customize the functions and movement logic in `field_coords.py` based on your requirements.
+
+8. Refer to the documentation of RPi.GPIO and Adafruit_CharLCD for additional configuration options and features.
+
+9. Ensure the Raspberry Pi is powered on and connected to the necessary peripherals.
+
+10. Test the setup in a safe environment to avoid any damage to the hardware components.
+
+Enjoy your robotic project!
+
